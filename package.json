@@ -8,12 +8,22 @@
     "type": "git",
     "url": "git://github.com/gmeeker/authenticate-proxy-agent"
   },
+  "keywords": [
+    "socks",
+    "socks4",
+    "socks4a",
+    "socks5",
+    "socks5h",
+    "proxy",
+    "http",
+    "https",
+    "agent"
+  ],
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "test": "jest"
   },
-  "author": "DigitalAnarchists",
   "license": "MIT",
   "private": false,
   "devDependencies": {
@@ -26,7 +36,8 @@
   },
   "dependencies": {
     "lodash": "^4.17.15",
-    "pac-resolver": "^4.1.0"
+    "pac-resolver": "^4.1.0",
+    "socks": "^2.3.3"
   },
   "engines": {
     "node": ">=8"

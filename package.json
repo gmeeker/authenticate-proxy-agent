@@ -35,9 +35,9 @@
     "jest": "^25.1.0"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
-    "pac-resolver": "^4.1.0",
-    "socks": "^2.3.3"
+    "lodash": "^4.17.21",
+    "pac-resolver": "^5.0.0",
+    "socks": "^2.6.1"
   },
   "engines": {
     "node": ">=8"
